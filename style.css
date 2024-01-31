@@ -1,0 +1,89 @@
+.general-info ul li p {
+    margin: 0;
+}
+
+.skills .list-skills {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.skills .list-skills img {
+    width: 80px;
+    height: 80px;
+}
+
+.skills .list-skills p {
+    font-weight: bold;
+}
+
+.list-sosmed p:nth-child(2),
+.list-sosmed p:nth-child(3) {
+    margin-top: -7px;
+}
+
+.list-sosmed a {
+    text-decoration: none;
+    color: white;
+}
+
+.work-experience .list-work {
+    position: relative;
+    z-index: 1;
+}
+
+.work-experience .list-work h4,
+.work-experience .list-work h6,
+.work-experience .list-work p {
+    margin: 0;
+    padding: 0;
+}
+
+.work-experience .list-work h4,
+.work-experience .list-work h6,
+.work-experience .list-work p {
+    margin-left: 15px;
+}
+
+.work-experience .list-work::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    top: 5px;
+    bottom: -10px;
+    left: 0;
+    background-color: #17a2b8;
+    z-index: 3;
+}
+
+.work-experience .list-work::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: #17a2b8;
+    z-index: 4;
+    border-radius: 50%;
+    transform: translateX(-45%);
+}
+
+/* Media Query */
+/* Extra Large */
+@media (max-width: 1200px) {}
+
+/* Laptop */
+@media (max-width: 992px) {}
+
+/* Tablet */
+@media (max-width: 768px) {}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .right-side {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

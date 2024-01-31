@@ -1,0 +1,49 @@
+.general-info ul li p {
+    margin: 0;
+}
+
+.list-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.list-skills .list-item {
+    margin-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.list-skills .list-item::after {
+    content: '';
+    display: block;
+    background-color: #17a2b8;
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+    /* border-radius: 25%; */
+}
+
+/* Media Query */
+/* Extra Large */
+@media (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+    
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .right-side {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

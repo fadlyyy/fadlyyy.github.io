@@ -1,0 +1,10 @@
+.general-info ul li p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .general-info ul li p {
+        margin: 0;
+    }
+    
+}
